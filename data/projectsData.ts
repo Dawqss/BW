@@ -1,8 +1,8 @@
 export interface ProjectData {
-  title: string;
-  description: string;
-  imgSrc: string;
-  href: string;
+  title: string
+  description: string
+  imgSrc: string
+  href: string
 }
 
 const projectsData: ProjectData[] = [
@@ -15,7 +15,5 @@ const projectsData: ProjectData[] = [
   //   href: 'https://www.google.com',
   // },
 ]
-
-
 
 export default projectsData

@@ -6,13 +6,13 @@ import LogoImageDark from '@/data/logoWhite.svg'
 import { useTheme } from 'next-themes'
 
 const Logo = () => {
-  const { theme } = useTheme();
+  const { theme } = useTheme()
 
   if (theme === 'dark') {
-    return <LogoImageDark/>
+    return <LogoImageDark />
   }
 
-  return <LogoImageLight/>
+  return <LogoImageLight />
 }
 
-export default Logo;
+export default Logo

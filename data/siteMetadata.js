@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'Wyrkowski Blog',
   author: 'Dawid Wyrkowski',
   headerTitle: 'WyrkowskiBlog',
-  description: 'A Journey Through React and JavaScript: A blog crafted for those who share a passion for React, React Native, and the ever-evolving world of JavaScript.',
+  description:
+    'A Journey Through React and JavaScript: A blog crafted for those who share a passion for React, React Native, and the ever-evolving world of JavaScript.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://wyrkowski.com',
